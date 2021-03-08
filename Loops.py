@@ -1,18 +1,5 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-#
-#
-
-#
-#
-
 # TODO: ENUMEARTION WITH INDEX, NON INDEX LOOPS AND SO ON...
+from tqdm.auto import tqdm
 
 list = [1, 2, 3, 4, 5, 6]
 
@@ -36,6 +23,11 @@ while i >= 98:
     i -= 1
     print(i)
 
-from tqdm.auto import tqdm
-for i in tqdm(range(len(df))):
-    print(i)
+# for i in tqdm(range(len(list))):
+#     print(i)
+
+# ######################################  CRAZZY SHORTCUTS  ##########################################
+
+# Swap values!
+list[0], list[2] = list[2], list[0]
+
